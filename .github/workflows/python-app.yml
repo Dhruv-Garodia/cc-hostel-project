@@ -30,5 +30,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: building project
       run: |
+        cd ~/actions-runner/_work/cc-hostel-project/cc-hostel-project
+        source project/bin/activate
         pm2 restart project
         
