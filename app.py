@@ -14,7 +14,7 @@ from join_agg import read_op
 
 def main():
     st.title("Hostel Management System 🏡")
-    st.subheader("Cloud Computing Project cc project working lessgogoooo ")
+    st.subheader("Cloud Computing Project")
     menu = ["Home","Add data","Student","Employee","Hostel","Visitors","Room","Cloak_Room","Custom Query","Procedure","Join with aggregate","Intersection","Function","Modify"]
     # menu = ["Home","Add data","Read"]
     choice = st.sidebar.selectbox("Menu",menu)
