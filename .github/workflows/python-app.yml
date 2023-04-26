@@ -31,6 +31,5 @@ jobs:
     - name: building project
       run: |
         cd ~/actions-runner/_work/cc-hostel-project/cc-hostel-project
-        source project/bin/activate
         pm2 restart project
         
