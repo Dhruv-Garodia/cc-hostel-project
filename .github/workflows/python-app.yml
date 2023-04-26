@@ -39,5 +39,6 @@ jobs:
         sudo apt install nodejs
         npm --version
         npm install pm2 -g
+        source project/bin/activate
         pm2 restart project
         
