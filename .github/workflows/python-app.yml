@@ -39,6 +39,8 @@ jobs:
         sudo apt install nodejs
         npm --version
         npm install pm2 -g
+        python3 -m venv project
         source project/bin/activate
+        pip install streamlit
         pm2 restart project
         
